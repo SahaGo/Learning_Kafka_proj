@@ -1,8 +1,8 @@
+![header](kafka-go.jpg)
 # Реализация Kafka на Go
 
-A Kafka implementation using , the  package, and the example provided in the kafka-go package.
-
-Простая реализация _Kafka_ на _Golang_ с использованием пакета [kafka-go](https://github.com/segmentio/kafka-go) и [UI for Apache Kafka](https://github.com/provectus/kafka-ui)
+Простая реализация _Kafka_ на _Golang_ с использованием пакета [kafka-go](https://github.com/segmentio/kafka-go) и [UI for Apache Kafka](https://github.com/provectus/kafka-ui).
+События генерируются раз в полсекунды, сохраняясь в testTopic, происходят асинхронно  
 
 > [!NOTE]
 >Apache Kafka — это Open Source-платформа для распределенной потоковой передачи событий. Ее задача — организация  высокопроизводительных пайплайнов данных, потоковая аналитика, интеграция данных.
