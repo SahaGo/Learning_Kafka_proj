@@ -1,8 +1,11 @@
-package main
+package model
 
-type TestStruct struct {
+import "time"
+
+type Event struct {
 	Id        string
 	Message   string
 	Success   bool
 	Variables []int
+	Time      time.Time
 }
